@@ -3,6 +3,6 @@ ERROR: Command errored out with exit status 1: python setup.py egg_info Check th
 
 解决：
 先安装依赖  yum -y install mysql-devel
-再安装  yum -y install mysqlclient  
+再安装  pip install mysqlclient  
 即可解决
 ------------------------------------------------------------------------------------------------------------------
