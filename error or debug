@@ -1,4 +1,4 @@
-1.问题：在centos7.4中安装mysqlclient会报如下错误：
+1.问题：在centos7.4中python安装mysqlclient会报如下错误：
 ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output
 
 解决：
