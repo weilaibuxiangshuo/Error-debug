@@ -6,3 +6,9 @@ ERROR: Command errored out with exit status 1: python setup.py egg_info Check th
 再安装  pip install mysqlclient  
 即可解决
 ------------------------------------------------------------------------------------------------------------------
+2.问题：在启动uwsgi时(uwsgi --ini uwsgi.ini)报如下错误：
+The -s/--socket option is missing and stdin is not a socket.
+
+解决：
+这个是由uwsgi.ini文件中开头漏掉了 [uwsgi]
+[uwsgi]需独占一行，添加上去即可正常启动
